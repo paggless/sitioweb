@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111111;
+            color: #fdfbfb;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #535252;
+            color: #f8f5f5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #faf4f4;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 60px;
+        }
+        .producto {
+            border: 9px solid #ccc;
+            border-radius: 10px;
+            padding: 50px;
+            margin-bottom: 30px;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+        }  
+        .producto img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .producto h2 {
+            margin-top: 10px;
+        }
+        .producto p {
+            color: #777;
+        }
+        footer {
+            background-color: #333233;
+            color: #f8f4f4;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <marquee><h1>COFFE POINT</h1></marquee>
+</header>
+
+<nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="correo.html">Contacto</a>
+</nav>
+
+<section>
+    <div class="producto">
+        <img src="imagenes/cafe1.html" alt="Producto 1">
+        <h2>frape</h2>
+        <p>Precio: $150</p>
+        <button>Agregar al carrito</button>
+    </div>
+    <div class="producto">
+        <img src="imagenes/pastel.html" alt="Producto 2">
+        <h2>Pastelito</h2>
+        <p>Precio: $80</p>
+        <button>Agregar al carrito</button>
+    </div>
+    <div class="producto">
+        <img src="imagenes/cafekitty.html" alt="Producto 3">
+        <h2>Especial kitty!!</h2>
+        <p>Precio: $120</p>
+        <button>Agregar al carrito</button>
+    </div>
+    <div class="producto">
+        <img src="imagenes/nieve.html" alt="Producto 3">
+        <h2>helado vainilla</h2>
+        <p>Precio: $60</p>
+        <button>Agregar al carrito</button>
+    </div>
+    <div class="producto">
+        <img src="imagenes/cafeypan.html" alt="Producto 3">
+        <h2>cafe caliente y pan</h2>
+        <p>Precio: $60</p>
+        <button>Agregar al carrito</button>
+    </div>
+</section>
+
+<footer>
+    <p>te esperamos!!</p>
+</footer>
+
+</body>
+</html>
